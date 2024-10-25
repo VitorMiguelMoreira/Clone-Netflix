@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+ul {
+    height: 25px;
+    top: 5%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: fixed;
+}
+
+.topo{
+    height: 25px;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    padding-bottom: 100px;
+    padding-top: 0px;
+}
+video {
+    width: 100vw;
+    min-height: 80vh;
+}
+
+.capa {
+    color: white;
+    position: absolute;
+    bottom: 30%;
+    left: 3%;
+    width: 35%;
+    z-index: 3;
+}
+
+.capa-titulo {
+    font-size: 50px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.capa-descricao {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.link-assistir {
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.link-info {
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.35);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.imagem-carrossel {
+    height: 130px;
+}
+
+#carouselExampleControls {
+    background-color: transparent;
+    position: absolute;
+    left: 1%;
+    bottom: -10px;
+}
+
+.titulo-carrossel {
+    color: white;
+    width: bold;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.botao-som {
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    z-index: 4;
+    position: absolute;
+    top: 10%;
+    right: 1%;
+}
+
+.botao-mute {
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    z-index: 4;
+    position: absolute;
+    top: 14%;
+    right: 1%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-conteudo{
+    background-color: rgb(18, 18, 18);
+    margin: 30px auto;
+    padding: 20px;
+    padding-top: 40px;
+    width: 60%;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.botao-fecha {
+    z-index: 6;
+    border: none;
+    width: 3%;
+    height: 5%;
+    position: absolute;
+    top: 29%;
+    left: 25%;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    text-decoration: bold;
+    cursor: pointer;
+}
+
