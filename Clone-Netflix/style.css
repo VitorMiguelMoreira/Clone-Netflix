@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-ul {
+.lista-topo {
     height: 25px;
     top: 5%;
     width: 95%;
@@ -144,3 +144,33 @@ video {
     cursor: pointer;
 }
 
+.titulo-problema {
+    position: absolute;
+    top: 160px;
+    left: 25%;
+    color: white;
+    font-style: bold;
+    padding-bottom: 10px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.texto-problema {
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    top: 210px;
+    left: 21%;
+}
+
+.lista-volta {
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    top: 240px;
+    left: 25%;
+    padding-right: 10px;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    width: 31%;
+}
