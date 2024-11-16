@@ -8,6 +8,7 @@
     justify-content: space-between;
     list-style-type: none;
     position: fixed;
+    z-index: 3;
 }
 
 .topo{
@@ -26,8 +27,18 @@ body {
 video {
     width: 100vw;
     min-height: 80vh;
+    z-index: 1;
 }
 
+.estilizador {
+    display: block;
+    background-image:  linear-gradient(to right, rgba(0,0,0,1) 20%, rgba(0,0,0,0.6));
+    z-index: 2;
+    width: 100vw;
+    min-height: 100%;
+    position: absolute;
+    top: 4%;
+}
 .capa {
     color: white;
     position: absolute;
@@ -79,6 +90,7 @@ video {
     position: absolute;
     left: 1%;
     bottom: -10px;
+    z-index: 3;
 }
 
 .titulo-carrossel {
